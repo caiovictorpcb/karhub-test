@@ -26,8 +26,8 @@ API RESTful em NestJS para gerenciar estilos de cerveja e recomendar cervejas co
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositório>
-   cd beer-recommendation-api
+   git clone https://github.com/caiovictorpcb/karhub-test.git
+   cd karhub-test
    ```
 
 2. Instale as dependências:
