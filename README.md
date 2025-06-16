@@ -10,7 +10,6 @@ API RESTful em NestJS para gerenciar estilos de cerveja e recomendar cervejas co
 - [Executando a Aplicação](#executando-a-aplicação)
 - [Testes](#testes)
 - [Linting e Formatação](#linting-e-formatação)
-- [Estrutura do Projeto](#estrutura-do-projeto)
 - [Endpoints da API](#endpoints-da-api)
 - [Banco de Dados](#banco-de-dados)
 - [Variáveis de Ambiente](#variáveis-de-ambiente)
@@ -78,31 +77,6 @@ A API estará disponível em `http://localhost:3000` (ou na porta especificada n
   ```bash
   npm run test:cov
   ```
-
-## Estrutura do Projeto
-
-```
-├── src
-│   ├── beer
-│   │   ├── dto
-│   │   ├── schemas
-│   │   ├── beer.controller.ts
-│   │   ├── beer.service.ts
-│   │   ├── beer.module.ts
-│   ├── spotify
-│   │   ├── spotify.service.ts
-│   │   ├── spotify.module.ts
-│   ├── config
-│   │   ├── mongoose.config.ts
-│   ├── app.controller.ts
-│   ├── app.service.ts
-│   ├── app.module.ts
-│   ├── main.ts
-├── .env
-├── package.json
-├── tsconfig.json
-├── README.md
-```
 
 ## Endpoints da API
 
